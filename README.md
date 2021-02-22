@@ -16,7 +16,7 @@
 ## 스터디 진행순서
 | 논문 | 발표일 | 발표자 | 발표자료 | 
 |:----------------------------|:----------------------------:|:--------------------:|:-------------------:|
-| [VGG](https://arxiv.org/pdf/1409.1556.pdf) ||||
+| [VGG](https://arxiv.org/pdf/1409.1556.pdf) |21.03.02 화|||
 | [GoogleNet](https://static.googleusercontent.com/media/research.google.com/ko//pubs/archive/43022.pdf) ||||
 | [ResNet](https://arxiv.org/pdf/1512.03385.pdf) ||||
 
