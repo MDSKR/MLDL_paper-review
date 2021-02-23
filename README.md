@@ -20,6 +20,10 @@
 | [GoogleNet](https://static.googleusercontent.com/media/research.google.com/ko//pubs/archive/43022.pdf) ||||
 | [ResNet](https://arxiv.org/pdf/1512.03385.pdf) ||||
 
+이 후 논문에 대한 방법
+1. 팀별로 읽고 싶은 논문을 1주일 전에 발표하는 것
+2. 다 함께 정하자
+
 ## 참고링크 모음
 [Deep learning guidBook](https://hoya012.github.io/blog/deeplearning-classification-guidebook-1/)<br>
 [참고블로그 1](https://bskyvision.com/504)<br>
