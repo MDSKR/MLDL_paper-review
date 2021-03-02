@@ -6,7 +6,8 @@
 - 2014대회의 VGG 팀에서 2013대회의 OverFeat팀에서 한 Dense evaluation 을 multi-crop 이랑 비교한 내용임
 - OverFeat 팀의 dense evaluation 은 1데이터 간격으로 각각 non-overlapped pooling (pooling stride) 후 FC classifier로 연결됨. FC layer를 1x1 conv 로 slide하면서 연산을 여러번으로 조밀하게 함. 
 
-참고: 2013 OverFeat 리뷰(https://blog.naver.com/laonple/220752877630) 2013대회에서 OverFeat 팀의 Dense evaluation 은 localization 1위였고, classification, detection 에서도 통합적으로 효과적인 ConvNet 임을 보여줬음. <br><br>
+[참고]
+- [2013 OverFeat 리뷰](https://blog.naver.com/laonple/220752877630) 2013대회에서 OverFeat 팀의 Dense evaluation 은 localization 1위였고, classification, detection 에서도 통합적으로 효과적인 ConvNet 임을 보여줬음. <br><br>
 
 
 ### Q) model training 시에 single-scale, multi-scale 을 하면 input size 는 224 x 224 가 아닌, 256 x 256, 384 x 384, 512 x 512 등이 되나요?
