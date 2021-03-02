@@ -2,7 +2,7 @@
 ## 발표자료 올리는 방법 
 1. 코랩 
 - 코랩에서 업로드 하실 때 다음 처럼 진행해 주시면 됩니다
-[!Colab에서 다음과 같이 경로를 지정해서 올려주세요!](https://github.com/MDSKR/MLDL_paper-review/blob/main/VGG/img/img.png)
+![Colab에서 다음과 같이 경로를 지정해서 올려주세요](https://github.com/MDSKR/MLDL_paper-review/blob/main/VGG/img/img.png)
 
 ## 스터디 소개
 - 목적 : 딥러닝 입문자를 위한 논문리뷰 및 코드 구현
