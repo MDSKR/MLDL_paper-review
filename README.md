@@ -14,19 +14,20 @@
 
 ## 스터디 진행 방법
 - classification 논문을 시작으로, 1주당 1팀이 개인적으로 공부 후 발표
-- 코드 구현 : pytorch로 진행
+- 코드 구현 : pytorch로 진행 
 - 질의응답 시간을 활용하여 의견을 나눔
+
 
 ## 스터디 진행순서
 | 논문 | 발표일 | 발표자 | 발표자료 | 질문 |
 |:----------------------------|:----------------------------:|:--------------------:|:-------------------:|:-----------------:|
-| [VGG](https://arxiv.org/pdf/1409.1556.pdf) |21.03.02 화|1팀|[자료](https://github.com/MDSKR/MLDL_paper-review/blob/main/VGG/VGG.pdf)|[질문과 참고자료](https://github.com/MDSKR/MLDL_paper-review/blob/main/VGG)|
+| [VGG](https://arxiv.org/pdf/1409.1556.pdf) |21.03.02 화|김도영, 함희정, 이채영|[자료](https://github.com/MDSKR/MLDL_paper-review/blob/main/VGG/VGG.pdf)|[질문과 참고자료](https://github.com/MDSKR/MLDL_paper-review/blob/main/VGG)|
 | [GoogleNet](https://static.googleusercontent.com/media/research.google.com/ko//pubs/archive/43022.pdf) ||||
 | [ResNet](https://arxiv.org/pdf/1512.03385.pdf) ||||
 
-이 후 논문에 대한 방법
-1. 팀별로 읽고 싶은 논문을 1주일 전에 발표하는 것
-2. 다 함께 정하자
+이 후 논문에 대해서는 list up을 함께 진행한 후 한 주를 건넌 후 진행한다.
+
+
 
 ## 참고링크 모음
 [Deep learning guidBook](https://hoya012.github.io/blog/deeplearning-classification-guidebook-1/)<br>
