@@ -18,7 +18,7 @@
 
 ## 스터디 진행순서
 | 논문 | 발표일 | 발표자 | 발표자료 | 질문 |
-|:----------------------------|:----------------------------:|:--------------------:|:-------------------:|
+|:----------------------------|:----------------------------:|:--------------------:|:-------------------:|:-----------------:|
 | [VGG](https://arxiv.org/pdf/1409.1556.pdf) |21.03.02 화|1팀|[자료](https://github.com/MDSKR/MLDL_paper-review/blob/main/VGG/VGG.pdf)|[질문과 참고자료](https://github.com/MDSKR/MLDL_paper-review/blob/main/VGG)|
 | [GoogleNet](https://static.googleusercontent.com/media/research.google.com/ko//pubs/archive/43022.pdf) ||||
 | [ResNet](https://arxiv.org/pdf/1512.03385.pdf) ||||
