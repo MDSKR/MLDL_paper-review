@@ -1,7 +1,7 @@
 # ML_DL_study_paper_review
 ## 발표자료 올리는 방법 
 1. 코랩 
-[!Colab에서 다음과 같이 경로를 지정해서 올려주세요!]()
+[!Colab에서 다음과 같이 경로를 지정해서 올려주세요!](https://github.com/MDSKR/MLDL_paper-review/blob/main/VGG/img/img.png)
 
 ## 스터디 소개
 - 목적 : 딥러닝 입문자를 위한 논문리뷰 및 코드 구현
@@ -17,9 +17,9 @@
 - 질의응답 시간을 활용하여 의견을 나눔
 
 ## 스터디 진행순서
-| 논문 | 발표일 | 발표자 | 발표자료 | 
+| 논문 | 발표일 | 발표자 | 발표자료 | 질문 |
 |:----------------------------|:----------------------------:|:--------------------:|:-------------------:|
-| [VGG](https://arxiv.org/pdf/1409.1556.pdf) |21.03.02 화|1팀|[자료](https://github.com/MDSKR/MLDL_paper-review/blob/main/VGG/VGG.pdf)|
+| [VGG](https://arxiv.org/pdf/1409.1556.pdf) |21.03.02 화|1팀|[자료](https://github.com/MDSKR/MLDL_paper-review/blob/main/VGG/VGG.pdf)|[질문과 참고자료](https://github.com/MDSKR/MLDL_paper-review/blob/main/VGG)|
 | [GoogleNet](https://static.googleusercontent.com/media/research.google.com/ko//pubs/archive/43022.pdf) ||||
 | [ResNet](https://arxiv.org/pdf/1512.03385.pdf) ||||
 
