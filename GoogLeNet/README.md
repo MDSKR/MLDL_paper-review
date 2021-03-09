@@ -23,11 +23,13 @@
 >
 > <br>  
 >
+>
 > - **Sparse Matrix: 0이 대부분인 행렬 구조**    
 >  <br> 
 > <img src='image/sparse_matrix.jpg' height = '400'> 
 >     
 > <br>
+>
 >
 > - **Sparse connection의 장점은?**   
 >    
@@ -59,7 +61,8 @@
 >
 > - **GoogLeNet: non-uniform deep learning architecture** 
 > 
->   - Sparse structure of a convolution vision network로 어떻게 dense components를 구성할 수 있을까?      
+>   - Sparse structure of a convolution vision network로 어떻게 dense components를 구성할 수 있을까?   
+>   
 >   ⇒ **‘노드 간 연결은 Sparse하게, Matrix 연산은 Dense하게’**          
 >            
 >    1) 네트워크를 sparse하게 구성하여 크기 증가: 여러 filter (1x1, 3x3, 5x5)를 병렬적으로 사용해 connection에서의 sparsity를 확보한다. 따라서 이미지의 위치 정보와 추상화된 정보를 모두 볼 수 있게 된다.    
@@ -73,7 +76,8 @@
 
 ### Q) 코드 상에 drop_last=True의 기능에 대해 설명해 주세요.
 > #### A) 과대적합을 줄이기 위해 사용합니다.
-> - 마지막 미니 배치 사이즈의 크기가 이전 미니 배치 사이즈들 보다 작을 경우 마지막 배치가 상대적으로 과대 평가 되는 현상이 발생. 이를 막기 위해 `DataLoader` 함수에 `drop_last=True` 옵션을 사용하여 이를 방지.
+> - 마지막 미니 배치 사이즈의 크기가 이전 미니 배치 사이즈들 보다 작을 경우 마지막 배치가 상대적으로 과대 평가 되는 현상이 발생. 
+> - 이를 막기 위해 `DataLoader` 함수에 `drop_last=True` 옵션을 사용하여 이를 방지.
 > <br>
 > [참고]
 > 
