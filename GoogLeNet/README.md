@@ -104,6 +104,7 @@
 > loss = loss2*0.3 + loss3*0.3 
 > loss.backward()
 > ```
+> <br>
 > [참고]
 > - [Going deeper with convolutions](https://arxiv.org/pdf/1409.4842.pdf)
 > - [CROSSENTROPYLOSS](https://pytorch.org/docs/stable/generated/torch.nn.CrossEntropyLoss.html)
