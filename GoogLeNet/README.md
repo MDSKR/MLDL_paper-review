@@ -53,18 +53,19 @@
 
 ### Q) 코드 상에 drop_last=True의 기능에 대해 설명해 주세요.
 > #### A) 과대적합을 줄이기 위해 사용합니다.
-> 마지막 미니 배치 사이즈의 크기가 이전 미니 배치 사이즈들 보다 작을 경우 마지막 배치가 상대적으로 과대 평가 되는 현상이 발생합니다. 이를 막기 위해 `DataLoader` 함수에 `drop_last=True` 옵션을 사용하여 이를 방지합니다.
-> [참조]
+> - 마지막 미니 배치 사이즈의 크기가 이전 미니 배치 사이즈들 보다 작을 경우 마지막 배치가 상대적으로 과대 평가 되는 현상이 발생. 이를 막기 위해 `DataLoader` 함수에 `drop_last=True` 옵션을 사용하여 이를 방지.
+> <br>
+> [참고]
 > - [PyTorch로 시작하는 딥 러닝 입문](https://wikidocs.net/60324)
 
 ----
 
 ### Q) Aux Classifier를 사용하게 되면 어떤식으로 Loss에 넣어서 사용할 수 있을까요?
 > #### A) 따로 loss를 구하여 최종으로 더해주는 형식으로 작성하면 될 듯 합니다.
-> CrossEntropyLoss의 경우 `LogSoftmax`와 `NLLLoss`가 하나로 결합된 함수이다.  
-> 즉, 위 함수에 fc_layer 값을 넣었을 경우 바로 손실 값을 출력할 수 있다.  
+> - CrossEntropyLoss의 경우 `LogSoftmax`와 `NLLLoss`가 하나로 결합된 함수이다.  
+> - 즉, 위 함수에 fc_layer 값을 넣었을 경우 바로 손실 값을 출력할 수 있다.  
 > 
-> 우리의 code에서 이를 적용해 나타내면  
+> - 우리의 code에서 이를 적용해 나타내면  
 > ```python
 > # 모델 선언 (8번째 block)
 > model = GoogLeNet(num_classes=num_classes, aux=True) # aux 사용
@@ -75,7 +76,6 @@
 > loss3 = criterion(aux2, Y)
 > 
 > # 논문 6 페이지를 참조하면 auxiliary classifiers의 loss를 0.3 곱해 전체 loss에 더해 준다고 나와있다.
-> 
 > loss = loss2*0.3 + loss3*0.3 
 > loss.backward()
 > ```
