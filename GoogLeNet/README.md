@@ -4,12 +4,12 @@
 ### Q) Inception module에서 병렬적인 filter들을 하나로 합칠 때 zero padding을 사용하나요?
 > #### A) tensor를 하나로 합쳐주는 연산이므로 zero padding을 사용하지 않습니다.
 > 
-> - padding의 의미
+> - padding의 의미:
 >   padding은 CNN에서 kernel에 의해 이미지를 처리할 때 추가한 pixel
 > 
-> 공식 문서(pytorch 문서)에서 논문 구현에 torch.cat의 함수를 사용하고 있으며 이는 tensor들을 하나로 합쳐서 사용해주는 역할을 한다. 비슷한 기능을 하지만 다른 자료구조를 합쳐주는 함수로는 `pd.concat`와 `np.concatenate`가 있다.  
+> - 공식 문서(pytorch 문서)에서 논문 구현에 torch.cat의 함수를 사용하고 있으며 이는 tensor들을 하나로 합쳐서 사용해주는 역할을 한다. 비슷한 기능을 하지만 다른 자료구조를 합쳐주는 함수로는 `pd.concat`와 `np.concatenate`가 있다.  
 > <br>
-> [참고]
+>   [참고]
 > - [What is Padding in Machine Learning?](https://deepai.org/machine-learning-glossary-and-terms/padding)
 > - [googlenet.py](https://github.com/pytorch/vision/blob/master/torchvision/models/googlenet.py)
 > - [TORCH.CAT](https://pytorch.org/docs/stable/generated/torch.cat.html)
