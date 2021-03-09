@@ -43,27 +43,27 @@
 >   - Vision task는 주어진 input의 차원에 비해 실제 필요한 feature의 차원이 극히 작다.    
 >   - DNN은 하나의 출력(s)을 위해 각각 다른 가중치들(w)이 사용되지만, CNN은 같은 가중치 그룹을 공유 (Parameter sharing)함으로써 이 문제를 해결한다.       
 >   - CNN은 layer 간 모든 connection을 연결하는 대신 일부만 연결시킨다. Conv filter를 적용할 때 적용되지 않은 모든 부분은 0이 된다 (Sparse matrix). 가중치들을 각각 다른 random variable로 취급하여 따로 업데이트하는 대신 특정 가중치 그룹을 공유하는 것     
->   
+>   <br>
 >   <img src='image/DNN_vs_CNN.png'>    
 >   <img src='image/lenet.png'>
-
-<br>   
-
+>
+> <br>   
+>
 > -	**Sparse connection의 단점은?**       
 > 
 >   - 하지만 CNN 모델의 깊이와 사이즈를 증가시키면서, overfitting의 문제와 함께 computation 증가의 문제를 가져왔다. 
 >   - Dense connection은 행렬 연산으로 GPU 병렬 처리가 가능한데, Sparse connection은 힘들다. Conv layer가 연결될 때 가중치가 대부분 0의 값을 가진다면 낭비일 것이다. 
 >   - 따라서 AlexNet부터는 dropout을 통해 정규화하면서 Dense connection의 형태로 계산을 수행하게 되었다. 
-   
-<br>
-
+>   
+> <br>
+>
 > - **GoogLeNet: non-uniform deep learning architecture** 
 > 
 >   - Sparse structure of a convolution vision network로 어떻게 dense components를 구성할 수 있을까?      
 >   ⇒ **‘노드 간 연결은 Sparse하게, Matrix 연산은 Dense하게’**          
->           
->   1) 네트워크를 sparse하게 구성하여 크기 증가: 여러 filter (1x1, 3x3, 5x5)를 병렬적으로 사용해 connection에서의 sparsity를 확보한다. 따라서 이미지의 위치 정보와 추상화된 정보를 모두 볼 수 있게 된다.    
->   2) 1x1 conv 활용: channel, computation 감소, non-linearity 추가 효과             
+>   <br>        
+>   - 1) 네트워크를 sparse하게 구성하여 크기 증가: 여러 filter (1x1, 3x3, 5x5)를 병렬적으로 사용해 connection에서의 sparsity를 확보한다. 따라서 이미지의 위치 정보와 추상화된 정보를 모두 볼 수 있게 된다.    
+>   - 2) 1x1 conv 활용: channel, computation 감소, non-linearity 추가 효과             
 >   ⇒ **Connection 자체는 sparse하지만 dense matrix operation을 수행하는 것이다.**
 >  <img src='image/inception.png'>
 
