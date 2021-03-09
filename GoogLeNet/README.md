@@ -41,8 +41,8 @@
 > +	**Sparse connection의 단점은?**   
 > - 하지만 CNN 모델의 깊이와 사이즈를 증가시키면서, overfitting의 문제와 함께 computation 증가의 문제를 가져왔다. Dense connection은 행렬 연산으로 GPU 병렬 처리가 가능한데, Sparse connection은 힘들다. Conv layer가 연결될 때 가중치가 대부분 0의 값을 가진다면 낭비일 것이다. 따라서 AlexNet부터는 dropout을 통해 정규화하면서 Dense connection의 형태로 계산을 수행하게 되었다.    
 >   
-> + **GoogLeNet**: non-uniform deep learning architecture      
-> - Sparse structure of a convolution vision network로 어떻게 dense components를 구성할 수 있을까?
+> + **GoogLeNet**: non-uniform deep learning architecture 
+> - Sparse structure of a convolution vision network로 어떻게 dense components를 구성할 수 있을까?      
 >  ⇒ ‘노드 간 연결은 Sparse하게, Matrix 연산은 Dense하게’
 >  1) 네트워크를 sparse하게 구성하여 크기 증가: 여러 filter (1x1, 3x3, 5x5)를 병렬적으로 사용해 connection에서의 sparsity를 확보한다. 따라서 이미지의 위치 정보와 추상화된 정보를 모두 볼 수 있게 된다.
 >  2) 1x1 conv 활용: channel, computation 감소, non-linearity 추가 효과     
