@@ -62,8 +62,8 @@
 >   - Sparse structure of a convolution vision network로 어떻게 dense components를 구성할 수 있을까?      
 >   ⇒ **‘노드 간 연결은 Sparse하게, Matrix 연산은 Dense하게’**          
 >   <br>        
->   - 1) 네트워크를 sparse하게 구성하여 크기 증가: 여러 filter (1x1, 3x3, 5x5)를 병렬적으로 사용해 connection에서의 sparsity를 확보한다. 따라서 이미지의 위치 정보와 추상화된 정보를 모두 볼 수 있게 된다.    
->   - 2) 1x1 conv 활용: channel, computation 감소, non-linearity 추가 효과             
+>   1) 네트워크를 sparse하게 구성하여 크기 증가: 여러 filter (1x1, 3x3, 5x5)를 병렬적으로 사용해 connection에서의 sparsity를 확보한다. 따라서 이미지의 위치 정보와 추상화된 정보를 모두 볼 수 있게 된다.    
+>   2) 1x1 conv 활용: channel, computation 감소, non-linearity 추가 효과             
 >   ⇒ **Connection 자체는 sparse하지만 dense matrix operation을 수행하는 것이다.**
 >  <img src='image/inception.png'>
 
