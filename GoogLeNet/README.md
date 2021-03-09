@@ -20,10 +20,10 @@
 > #### A) 간단하게 말해, `노드 간의 연결을 줄이는 것`
 > 
 >   <img src='image/sparse_vs_dense.png' height = '400'>      
-> <br>  
+>   <br>  
 > - **Sparse matrix**: 0이 대부분인 행렬 구조    
->   <img src='image/sparse_matrix.jpg' height = '300'>      
-> <br>
+>   <img src='image/sparse_matrix.jpg' height = '400'>      
+>   <br>
 > - ""Sparse connection""의 장점은?    
 >   - 가능한 모든 connection을 사용하는 것보다 가중치를 적게 사용하면서도 좋은 성능을 낼 수 있다.     
 >   - Conv Filter가 증가할 때마다 연산량이 quadratic하게 증가할텐데 이 때 weights의 대부분이 zero 값을 갖는다. 
