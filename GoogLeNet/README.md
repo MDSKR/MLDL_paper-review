@@ -22,14 +22,14 @@
 > <img src='image/sparse_vs_dense.png' height = '400'>      
 >
 > <br>  
->
+> <br>
 >
 > - **Sparse Matrix: 0이 대부분인 행렬 구조**    
 >  <br> 
 > <img src='image/sparse_matrix.jpg' height = '400'> 
 >     
 > <br>
->
+> <br>
 >
 > - **Sparse connection의 장점은?**   
 >    
@@ -101,12 +101,10 @@
 > loss3 = criterion(aux2, Y)
 > 
 > # 논문 6 페이지를 참조하면 auxiliary classifiers의 loss를 0.3 곱해 전체 loss에 더해 준다고 나와있다.
-> 
 > loss = loss2*0.3 + loss3*0.3 
 > loss.backward()
 > ```
 > [참고]
-> 
 > - [Going deeper with convolutions](https://arxiv.org/pdf/1409.4842.pdf)
 > - [CROSSENTROPYLOSS](https://pytorch.org/docs/stable/generated/torch.nn.CrossEntropyLoss.html)
 
