@@ -19,11 +19,11 @@
 
 ### Q) Sparse Connection에 대해 설명 부탁드려요.
 > #### A) 간단하게 말해 `노드 간의 연결을 줄이는 것`
->   <img src='image/sparse_vs_dense.png', height = '300'>
+>   <img src='image/sparse_vs_dense.png' height = '300'>
 > <br>
 > - **Sparse matrix**: 0이 대부분인 행렬 구조
 > 
->   <img src='image/sparse_matrix.jpg', height = '300'>
+>   <img src='image/sparse_matrix.jpg' height = '300'>
 > <br>
 > - **Sparse connection의 장점은?**
 >   가능한 모든 connection을 사용하는 것보다 가중치를 적게 사용하면서도 좋은 성능을 낼 수 있다.
