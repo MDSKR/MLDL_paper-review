@@ -1,6 +1,5 @@
 ## Q & A
-***   
-
+ 
 ### Q) Inception module에서 병렬적인 filter들을 하나로 합칠 때 zero padding을 사용하나요?
 > #### A) tensor를 하나로 합쳐주는 연산이므로 zero padding을 사용하지 않습니다.
 > 
