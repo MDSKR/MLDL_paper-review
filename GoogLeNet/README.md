@@ -20,24 +20,24 @@
 > #### A) 간단하게 말해, `노드 간의 연결을 줄이는 것`
 > <br>
 > <img src='image/sparse_vs_dense.png' height = '400'>      
-
-<br>  
-
+>
+> <br>  
+>
 > - **Sparse Matrix: 0이 대부분인 행렬 구조**    
 >  <br> 
 > <img src='image/sparse_matrix.jpg' height = '400'> 
-     
-<br>
-
+>     
+> <br>
+>
 > - **Sparse connection의 장점은?**   
 >    
 >   - 가능한 모든 connection을 사용하는 것보다 가중치를 적게 사용하면서도 좋은 성능을 낼 수 있다.     
 >   - Conv Filter가 증가할 때마다 연산량이 quadratic하게 증가할텐데 이 때 weights의 대부분이 zero 값을 갖는다. 
 >   - computation이 낭비가 된다고 볼 수 있다. 이 때 낭비를 줄이기 위해 sparse connection이란 아이디어가 나온 것.    
 >   - [Arora 논문](https://arxiv.org/pdf/1310.6343.pdf) 에서 주장하는 바로는 dense connection의 경우 optimization 측면에서 NP hard 문제로 귀결되지만, sparse connection을 이용하면 polynomial 문제로 귀결시킬 수 있다.     
- 
-<br>   
-
+> 
+> <br>   
+>
 > - **LeNet: Example of Sparse Connection**    
 >      
 >   - Vision task는 주어진 input의 차원에 비해 실제 필요한 feature의 차원이 극히 작다.    
