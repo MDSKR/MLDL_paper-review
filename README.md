@@ -16,7 +16,7 @@
 |:----------------------------|:----------------------------:|:--------------------:|:-------------------:|:-----------------:|
 | [VGG](https://arxiv.org/pdf/1409.1556.pdf) |21.03.02 화|김도영, 함희정, 이채영|[자료](https://github.com/MDSKR/MLDL_paper-review/blob/main/VGG/VGG.pdf)|[질문과 참고자료](https://github.com/MDSKR/MLDL_paper-review/blob/main/VGG)|
 | [GoogleNet](https://static.googleusercontent.com/media/research.google.com/ko//pubs/archive/43022.pdf) |21.03.09 화|김효민, 박성호, 이지현|[자료](https://github.com/MDSKR/MLDL_paper-review/blob/main/GoogLeNet/GoogLeNet.pdf)|[질문과 참고자료](https://github.com/MDSKR/MLDL_paper-review/tree/main/GoogLeNet)|
-| [ResNet](https://arxiv.org/pdf/1512.03385.pdf) |21.03.16 화|남수빈, 박정재||
+| [ResNet](https://arxiv.org/pdf/1512.03385.pdf) |21.03.16 화|남수빈, 박정재|[자료](https://github.com/MDSKR/MLDL_paper-review/tree/main/ResNet)|
 
 | 논문 | 발표일 | 발표자 | 발표자료 | 질문 |
 |:----------------------------|:----------------------------:|:--------------------:|:-------------------:|:-----------------:|
