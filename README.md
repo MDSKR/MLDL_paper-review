@@ -3,9 +3,7 @@
 - 목적 : 딥러닝 입문자를 위한 논문리뷰 및 코드 구현
 - 기간 : 2021.02.18 ~
 - 참여자 : <br>
-1팀 : 김도영, 함희정, 이채영<br>
-2팀 : 김효민, 박성호, 이지현<br>
-3팀 : 남정재, 박수빈<br>
+ 김도영, 함희정, 이채영, 김효민, 박성호, 이지현, 남정재, 박수빈
 
 ## 스터디 진행 방법
 - classification 논문을 시작으로, 1주당 1팀이 개인적으로 공부 후 발표
@@ -18,9 +16,14 @@
 |:----------------------------|:----------------------------:|:--------------------:|:-------------------:|:-----------------:|
 | [VGG](https://arxiv.org/pdf/1409.1556.pdf) |21.03.02 화|김도영, 함희정, 이채영|[자료](https://github.com/MDSKR/MLDL_paper-review/blob/main/VGG/VGG.pdf)|[질문과 참고자료](https://github.com/MDSKR/MLDL_paper-review/blob/main/VGG)|
 | [GoogleNet](https://static.googleusercontent.com/media/research.google.com/ko//pubs/archive/43022.pdf) |21.03.09 화|김효민, 박성호, 이지현|[자료](https://github.com/MDSKR/MLDL_paper-review/blob/main/GoogLeNet/GoogLeNet.pdf)|[질문과 참고자료](https://github.com/MDSKR/MLDL_paper-review/tree/main/GoogLeNet)|
-| [ResNet](https://arxiv.org/pdf/1512.03385.pdf) ||||
+| [ResNet](https://arxiv.org/pdf/1512.03385.pdf) |21.03.16 화|남수빈, 박정재||
 
-이 후 논문에 대해서는 list up을 함께 진행한 후 한 주를 건넌 후 진행한다.
+| 논문 | 발표일 | 발표자 | 발표자료 | 질문 |
+|:----------------------------|:----------------------------:|:--------------------:|:-------------------:|:-----------------:|
+| [Densnet](https://arxiv.org/pdf/1608.06993.pdf) |21.03.30 화|남정재, 박성호|||
+| [Overfeat](https://arxiv.org/pdf/1312.6229.pdf) ||김도영, 박수빈|||
+| [RCNN](https://arxiv.org/pdf/1311.2524.pdf)||김효민, 함희정|||
+| [FCN](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Long_Fully_Convolutional_Networks_2015_CVPR_paper.pdf)||이지현, 이채영|||
 
 
 
