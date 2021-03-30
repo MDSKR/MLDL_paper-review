@@ -23,7 +23,7 @@
 | [Densenet](https://arxiv.org/pdf/1608.06993.pdf) |21.03.30 화|남정재, 박성호|||
 | [Overfeat](https://arxiv.org/pdf/1312.6229.pdf) |21.04.06|김도영, 박수빈|||
 | [RCNN](https://arxiv.org/pdf/1311.2524.pdf)|21.04.13|김효민, 함희정|||
-| [FCN](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Long_Fully_Convolutional_Networks_2015_CVPR_paper.pdf)||이지현, 이채영|21.04.27||
+| [FCN](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Long_Fully_Convolutional_Networks_2015_CVPR_paper.pdf)|21.04.27|이지현, 이채영|||
 
 
 
