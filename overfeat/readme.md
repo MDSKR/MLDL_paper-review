@@ -5,7 +5,7 @@
   1. pooling을 수행하는 좌표에서 shift하여 추가적인 pooling을 수행하는 방법을 제시 (논문상에서는 : 기준좌표에서 x,y방향으로 {0,1,2}만큼 shift한 좌표의 조합)
   2. pooling 되지 않은 feature map에 pixel offset {0, 1, 2}의 조합에 따라 3x3 max pooling(non-overlapping)을 적용
 
-따라서 scale 2의 Layer5 pre-pool을 기준으로
+따라서 scale 2의 Layer5 pre-pool을 기준으로\
 20x23일때 (0,0) pixel offset : 3x3pooling을 non overlapping으로 한바퀴를 돌리게되면 6x7크기의 featuremap
           (0,1) pixel offset : 3x3pooling을 non overlapping으로 한바퀴를 돌리게되면 6x7크기의 featuremap
           ...
