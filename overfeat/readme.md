@@ -1,3 +1,11 @@
+## ConvNets input size constraints
+<img src='ConvNets input size constraints.gif' height = 300>
+<br><br>
+
+## Cat bounding box
+<img src='Cat bounding box.gif' height = 300>
+<br><br>
+
 ## Q. 발표장표 12장 표에서 layer5 post-pool 3x3부분이 convolution과 동일한 것일까요?
   A. 아닙니다.
   
@@ -17,3 +25,5 @@
 이렇게 모든 offset크기만큼 띄운뒤 pooling작업을 진행하게되면 모든 부분에 해당하는 featuremap(6x7)x(3x3)을 얻을 수 있게 됩니다.
 
 (즉 표에서 6x7은 output feature map size, 3x3은 offset에 해당하는 featuremap개수에 해당합니다.)
+
+<img src='scale2_pooling.gif' height=300>
