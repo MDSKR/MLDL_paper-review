@@ -15,4 +15,5 @@
           
           
 이렇게 모든 offset크기만큼 띄운뒤 pooling작업을 진행하게되면 모든 부분에 해당하는 featuremap(6x7)x(3x3)을 얻을 수 있게 됩니다.
+
 (즉 표에서 6x7은 output feature map size, 3x3은 offset에 해당하는 featuremap개수에 해당합니다.)
