@@ -22,7 +22,7 @@
 |:----------------------------|:----------------------------:|:--------------------:|:-------------------:|:-----------------:|
 | [Densenet](https://arxiv.org/pdf/1608.06993.pdf) |21.03.30 화|남정재, 박성호|[자료](https://github.com/MDSKR/MLDL_paper-review/tree/main/DenseNet/DenseNet.pdf)|[참고자료](https://github.com/MDSKR/MLDL_paper-review/blob/main/DenseNet/README.md)|
 | [Overfeat](https://arxiv.org/pdf/1312.6229.pdf) |21.04.06|김도영, 박수빈|[자료](https://github.com/MDSKR/MLDL_paper-review/tree/main/overfeat/2조_overfeat_v2.pdf)|[참고자료](https://github.com/MDSKR/MLDL_paper-review/blob/main/overfeat/readme.md)|
-| [RCNN](https://arxiv.org/pdf/1311.2524.pdf)|21.04.13|김효민, 함희정|[자료](https://github.com/MDSKR/MLDL_paper-review/blob/main/RCNN/rcnn_pdf.md)||
+| [RCNN](https://arxiv.org/pdf/1311.2524.pdf)|21.04.13|김효민, 함희정|[자료](https://github.com/MDSKR/MLDL_paper-review/blob/main/RCNN/RCNN_pdf.pdf)||
 | [FCN](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Long_Fully_Convolutional_Networks_2015_CVPR_paper.pdf)|21.04.27|이지현, 이채영|||
 
 
